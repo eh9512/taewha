@@ -1,0 +1,365 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    background-color: transparent;
+}
+header{
+    margin-bottom: 15px;
+}
+header .wrap{
+    width: 900px;
+    height: 155px;
+    margin: 0 auto;
+    position: relative;
+}
+header .wrap h1{
+    color: #132a88;
+    font-size: 38px;
+    font-weight: bolder;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header .wrap .left{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 45px;
+}
+header .wrap .left img{
+    width: 25px;
+}
+header .wrap .left button{
+    margin-right: 20px;
+}
+header .wrap .right{
+    display: flex;
+    position: absolute;
+    right: 0%;
+    top: 45px;
+}
+header .wrap .right img{
+    width: 25px;
+}
+header .wrap .right button{
+    margin-right: 15px;
+}
+header .wrap .gnb{
+    display: flex;
+    font-size: 18px;
+    color: #222;
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 2px solid #9ccdef;
+    text-align: center;
+}
+header .wrap .gnb a{
+    display: block;
+    width: 100%;
+}
+header .wrap .gnb li{
+    width: 130px;
+    padding-bottom: 13px;
+}
+header .wrap .gnb li:nth-child(2){
+    color: tomato;
+}
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 410px;
+    margin-bottom: 30px;
+}
+.banner .wrap {
+    height: 410px;
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+}
+.banner .wrap .lef{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.banner .wrap .rig{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.banner .wrap .lef img{
+    width: 30px;
+}
+.banner .wrap .rig img{
+    width: 30px;
+}
+.banner .one {
+    display: flex;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.banner .wrap .one li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.banner .wrap .one li{
+    width: 15px;
+    height: 15px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 0.75px solid #555;
+}
+.banner .wrap .one li:first-child{
+    background-color: white;
+}
+.con{
+    height: 190px;
+    border-bottom: 2px solid #ccc;
+}
+.con .wrap{
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    width: 900px;
+}
+.con .wrap h3{
+    color: #1e8d96;
+    font-weight: bold;
+}
+.con .wrap .ko{
+    width: 300px;
+    position: absolute;
+    left: 50px;
+}
+.con .wrap .ko p{
+    margin-top: 15px;
+    font-size: 14px;
+}
+.con .wrap .go{
+    width: 250px;
+    position: absolute;
+    left: 450px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.con .wrap .bb{
+    position: absolute;
+    right: 150px;
+    margin-top: 17px;
+}
+.con .wrap .bb img{
+    width: 80px;
+}
+.pro{
+    margin-top: 50px;
+    height: 900px;
+    border-bottom: 2px solid #ccc;
+}
+.pro .wrap{
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+.pro .wrap .bu{
+    height: 450px;
+}
+.pro .wrap h3{
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+}
+.pro .wrap .col{
+    display: flex;
+    margin-top: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.pro .wrap .col .box{
+    margin-right: 50px;
+}
+.pro .wrap .col .box:last-child{
+    margin-right: 0;
+}
+.pro .wrap .col img{
+    width: 220px;
+    height: 210px;
+    border: 1px solid #ccc;
+}
+.pro .wrap button img{
+    width: 20px;
+    height: 30px;
+}
+.pro .wrap .le{
+    position: absolute;
+    left: 0;
+    top: 170px;
+}
+.pro .wrap .ri {
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+.pro .wrap .tx{
+    text-align: center;
+    margin-top: 20px;
+}
+.pro .wrap .tx h5{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.pro .wrap .tx .ta{
+    color: #666;
+}
+.pro .wrap .tx .pr{
+    color: steelblue;
+}
+.event{
+    background-color: rgb(255, 248, 189);
+    border-bottom: 2px solid #ccc;
+}
+.event .wrap{
+    width: 900px;
+    margin: 0 auto;
+    height: 290px;
+}
+.event .wrap h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 30px;
+}
+.event .wrap .col{
+    display: flex;
+    margin: 30px 10px;
+}
+.event .wrap .box{
+    width: 400px;
+    height: 150px;
+    background-color: white;
+    margin-right: 30px;
+    display: flex;
+    position: relative;
+}
+.event .wrap .box:last-child{
+    margin-right: 0;
+}
+.event .wrap .box img{
+    width: 120px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.event .wrap .box p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.event .wrap .box span{
+    color: sandybrown;
+    font-weight: bolder;
+}
+.call{
+    border-bottom: 2px solid #ccc;
+    height: 100px;
+}
+.call .wrap {
+    width: 900px;
+    margin: 0 auto;
+}
+.call .wrap .box{
+    display: flex;
+}
+.call .wrap .box .bo{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    position: relative;
+}
+.call .wrap .box .bo img{
+    width: 50px;
+    position: absolute;
+    margin: 20px;
+}
+.call .wrap .box .bo h4{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.call .wrap .box .bo p{
+    font-size: 15px;
+}
+.call .wrap .box .bo .tt{
+    position: absolute;
+    margin: 20px 0 20px 90px;
+}
+footer{
+    background-color: rgb(238, 237, 237);
+    text-align: center;
+}
+footer .wrap{
+    width: 900px;
+    position: relative;
+    margin: 0 auto;
+}
+footer .sns{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 20px;
+}
+footer .sns img{
+    width: 25px;
+}
+footer .sns li{
+    margin-right: 10px;
+}
+footer .ta{
+   padding-top: 20px;
+   font-size: 16px;
+}
+footer .wrap .ta .co{
+    text-align: center;
+    margin: 10px 0;
+}
+footer .wrap .ta .co li{
+    margin-right: 15px;
+    display: inline-block;
+}
+footer .wrap .ta p{
+    margin-bottom: 10px;
+}
+footer .wrap .logo {
+    font-size: 23px;
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    margin-left: 365px;
+    padding: 25px 0;
+}
+footer .wrap .logo img{
+    width: 50px;
+    margin-right: 10px;
+}
+footer .wrap .copy{
+    color: #555;
+    font-size: 13px;
+}
